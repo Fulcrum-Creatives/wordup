@@ -1,0 +1,30 @@
+.footer__copyright {
+  position: relative;
+  background-color: $pastel-violet;
+  border-top: 18px solid $white;
+  padding: 2.5em 1em;
+  color: $white;
+  @include font-size(16, rem);
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 10px #c499c7;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+  }
+}
+.copyright__text,
+.footer__logo {
+  text-align: center;
+}
+.copyright__text {
+  @include font-size(12);
+  display: block;
+  margin-bottom: 2em;
+}

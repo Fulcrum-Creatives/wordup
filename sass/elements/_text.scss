@@ -1,0 +1,67 @@
+/*---------------------------------------------------------
+ * Text
+---------------------------------------------------------*/
+p {
+  line-height: 1.9em;
+  padding: 0;
+  margin: 0 0 2em;
+  @include font-size(14);
+  font-family:'merriweather_lightregular', Times, "Times New Roman", Georgia, serif;
+}
+blockquote {
+  position: relative;
+  max-width: 322px;
+  margin: 0 auto;
+  padding: 24px 24px 32px;
+  background-image: url(images/quote-line-bottom.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 322px 14px;
+  background-position: bottom center;
+  @include media-query( 0, retina) {
+    background-image: url(images/quote-line-bottom@2.png);
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 6px;
+    width: 322px;
+    background-image: url(images/quote-line-top.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 322px 6px;
+    background-position: top center;
+    @include media-query( 0, retina) {
+      background-image: url(images/quote-line-top@2.png);
+    }
+  }
+  p {
+    margin-bottom: 0;
+    @include font-size(19);
+    font-family:'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: $color__blockquote;
+    line-height: 1.2;
+  }
+}
+a {
+  color: $dark-purple;
+  text-decoration: none;
+}
+p {
+  a {
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+    &:hover {
+      border-color: $dark-purple;
+      transition: border-color 0.5s ease-in-out;
+    }
+  }
+}
+.block-small {
+  display: block;
+  text-align: center;
+  @include font-size(12);
+  color: $pastel-violet;
+}

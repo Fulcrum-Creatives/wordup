@@ -1,0 +1,38 @@
+/**--------------------------------------------------------
+ * Logos
+ *---------------------------------------------------------*/
+.header__logo {
+  max-width: 435px;
+  h1 {
+    margin: 0;
+    line-height: 0;
+    display: inline-block;
+  }
+}
+.logo__page {
+  max-width: 186px;
+  float: none;
+  margin: 1.5em auto 1.5em;
+  @include media-query(640px) {
+    float: left;
+    margin: 0.5em 0 0;
+  }
+}
+.logo__full,
+.logo__mobile {
+  margin: 3em auto 0;
+}
+.logo__full {
+  display: none;
+  max-width: 435px;
+  @include media-query(481px) {
+    display: block;
+  }
+}
+.logo__mobile {
+  display: block;
+  max-width: 258px;
+  @include media-query(481px) {
+    display: none;
+  }
+}

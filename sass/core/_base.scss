@@ -1,0 +1,23 @@
+/*---------------------------------------------------------
+ * Base
+---------------------------------------------------------*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  @include font-size($font-size__base);
+  background-color: #fff;
+  color: $color__font;
+}
+.main {
+  position: relative;
+}

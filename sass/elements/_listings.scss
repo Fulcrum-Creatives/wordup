@@ -1,0 +1,28 @@
+/**--------------------------------------------------------
+ * Listings
+ *---------------------------------------------------------*/
+.listings {
+  @include font-size(16, rem);
+  margin-bottom: 4.5em;
+}
+.listings__page-title {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.listings__divider {
+  border-top: 5px solid $pompadour;
+  width: 190px;
+  margin: 3em auto;
+}
+.listings__title {
+  @include font-size(24);
+  text-align: center;
+  a {
+    color: $pompadour;
+    transition: color 0.5s ease-in-out;
+    &:hover {
+      color: $dark-purple;
+      transition: color 0.5s ease-in-out;
+    }
+  }
+}

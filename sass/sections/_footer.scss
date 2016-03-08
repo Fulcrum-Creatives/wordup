@@ -1,0 +1,13 @@
+/*---------------------------------------------------------
+ * Footer
+---------------------------------------------------------*/
+.footer__break {
+  height: 58px;
+  width: 100%;
+  background-image: url(images/textured-bg.png);
+  background-position: center -5px;
+}
+.footer {
+  background-color: $dark-purple;
+  padding: 2.5em 0 0;
+}

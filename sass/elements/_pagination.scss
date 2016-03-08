@@ -1,0 +1,24 @@
+/**--------------------------------------------------------
+ * Pagination
+ *---------------------------------------------------------*/
+.next,
+.prev {
+  width: 130px;
+  margin: 2.5em 0 1em;
+  a {
+    @extend .button__black;
+    @extend .button__round;
+    color: $white;
+    transition: color 0.5s ease-in-out;
+    &:hover {
+      color: $pompadour;
+      transition: color 0.5s ease-in-out;
+    }
+  }
+}
+.next {
+  float: right;
+}
+.prev { 
+  float: left;
+}

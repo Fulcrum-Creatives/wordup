@@ -1,0 +1,76 @@
+/**--------------------------------------------------------
+ * Buttons
+ *---------------------------------------------------------*/
+.button__black {
+  background-color: $black;
+  transition: background-color 0.5s ease-in-out;
+  &:hover {
+    background-color: $hot-pink;
+    transition: background-color 0.5s ease-in-out;
+  }
+}
+.button__violet {
+  background-color: $pastel-violet;
+  transition: background-color 0.5s ease-in-out;
+  &:hover {
+    background-color: $black;
+    transition: background-color 0.5s ease-in-out;
+  }
+}
+.button__full,
+.button__round {
+  padding: 1.5em;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family:'Proxima N W01 Xbold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: $white;
+  @include font-size(16, rem);
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+.button__featured {
+  @extend .button__full;
+  margin-bottom: 1.5em;
+  font-family:'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  @include font-size(16, rem);
+  span {
+    display: block;
+  }
+  .button__featured-type,
+  .button__featured-heading {
+    @include font-size(31);
+    margin-bottom: 0.5em;
+  }
+  .button__featured-heading {
+    display: inline-block;
+    font-family:'Proxima N W01 Bold It', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: $color__heading;
+    padding-right: 2em;
+    background-image: url(images/arrow-right.png);
+    background-position: center right;
+    background-size: 27px 12px;
+    background-repeat: no-repeat;
+    @include font-size(24);
+  }
+  .button__featured-sub-heading {
+    line-height: 1;
+    font-family:'Proxima Nova W01 Medium', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: $black;
+    @include font-size(10);
+    text-transform: uppercase;
+    transition: color 0.5s ease-in-out;
+  }
+  &:hover {
+    .button__featured-sub-heading {
+      color: $white;
+      transition: color 0.5s ease-in-out;
+    }
+  }
+}
+.button__round {
+  border-radius: 3px;
+}

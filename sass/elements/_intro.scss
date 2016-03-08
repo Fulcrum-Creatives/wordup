@@ -1,0 +1,15 @@
+/**--------------------------------------------------------
+ * Intro
+ *---------------------------------------------------------*/
+.intro {
+  padding: 0 1em;
+  max-width: 650px;
+  margin: 4.5em auto;
+  @include font-size(16, rem);
+}
+.intro__title {
+  @include font-size(31);
+  color: $pompadour;
+  text-align: center;
+  margin-bottom: 1.5em;
+}

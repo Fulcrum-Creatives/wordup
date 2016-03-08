@@ -1,0 +1,50 @@
+/*---------------------------------------------------------
+ * Fonts
+---------------------------------------------------------*/
+@font-face {
+    font-family: 'merriweather_lightregular';
+    src: url('fonts/merriweather/merriweather_light.eot');
+    src: url('fonts/merriweather/merriweather_light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather_light.woff2') format('woff2'),
+         url('fonts/merriweather/merriweather_light.woff') format('woff'),
+         url('fonts/merriweather/merriweather_light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('fonts/merriweather/merriweather-bold.eot');
+    src: url('fonts/merriweather/merriweather-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-bold.woff2') format('woff2'),
+         url('fonts/merriweather/merriweather-bold.woff') format('woff'),
+         url('fonts/merriweather/merriweather-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.merriweather-light {
+  font-family:'merriweather_lightregular', Times, "Times New Roman", Georgia, serif;
+}
+.merriweather-bold {
+  font-family:'merriweatherbold', Times, "Times New Roman", Georgia, serif;
+}
+.proxima-regular {
+  font-family:'Proxima N W01 Reg', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.proxima-medium {
+  font-family:'Proxima Nova W01 Medium', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.proxima-bold {
+  font-family:'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.proxima-bold-italic {
+  font-family:'Proxima N W01 Bold It', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.proxima-black {
+  font-family:'Proxima N W01 Black', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.proxima-extrabold {
+  font-family:'Proxima N W01 Xbold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

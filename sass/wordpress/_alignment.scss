@@ -1,0 +1,42 @@
+/*---------------------------------------------------------
+ * Alignment
+---------------------------------------------------------*/
+.alignnone {
+  margin: 0 0 0 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+a img.alignnone {
+   margin: 0 0 0 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

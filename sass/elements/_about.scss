@@ -1,0 +1,22 @@
+/**--------------------------------------------------------
+ * About
+ *---------------------------------------------------------*/
+.about__content {
+  @include font-size(16, rem);
+}
+.about__content-heading,
+.about__content-button {
+  margin: 2.5em 0 4.5em;
+}
+.about__content-heading {
+  text-align: center;
+}
+.about__content-button {
+  p {
+    margin: 0;
+    line-height: 1.5;
+    font-family:'Proxima N W01 Xbold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    @include font-size(13);
+  }
+}
