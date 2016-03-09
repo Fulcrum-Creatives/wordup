@@ -7,5 +7,6 @@
     <section class="entry__content">
       <?php the_content(); ?>
     </section>
+    <?php get_template_part( 'template-parts/entry/author' ); ?>
   </article>
 </div>

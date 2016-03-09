@@ -15,3 +15,46 @@
   padding: 10% 6%;
   display: block;
 }
+.entry__footer {
+  width: 228px;
+  margin: 0 auto 3.5em;
+  @include font-size(16, rem);
+  .footer__divider {
+    text-align: center;
+    overflow: hidden;
+  }
+  .divider__dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: $pastel-violet;
+    border-radius: 100%;
+    margin-right: 10px;
+    &.last-child {
+      margin-right: 0;
+    }
+  }
+  .author-image,
+  .author-name,
+  .author-title {
+    display: block;
+    text-align: center;
+  }
+  .author-name,
+  .author-title {
+    display: block;
+    @include font-size(14);
+  }
+  .author-image {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    margin: 2em auto;
+  }
+  .author-name {
+    color: $pastel-violet;
+  }
+  .author-title {
+    color: $pompadour;
+  }
+}
