@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/wordup
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Theme for WordUp
-Version: 1.1.0
+Version: 1.1.1
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -676,11 +676,17 @@ h6 {
 }
 
 .entry__thumbnail {
-  margin-top: 4.5em;
+  margin-top: 4em;
+}
+.entry__thumbnail img {
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
 }
 
 .entry__header {
-  margin-bottom: 4.5em;
+  margin-bottom: 4em;
 }
 
 .focused-image {
@@ -844,7 +850,7 @@ h6 {
   font-size: 16px;
   font-size: 16px;
   font-size: 1rem;
-  margin-top: 4.5em;
+  margin-top: 4em;
 }
 .form__contact .gform_heading {
   font-size: 20px;
@@ -1267,7 +1273,7 @@ h6 {
 .intro {
   padding: 0 1em;
   max-width: 650px;
-  margin: 4.5em auto;
+  margin: 4em auto;
   font-size: 16px;
   font-size: 16px;
   font-size: 1rem;
@@ -1278,14 +1284,14 @@ h6 {
   font-size: 1.9375em;
   color: #66164d;
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 /**--------------------------------------------------------
  * Homepage Featured
  *---------------------------------------------------------*/
 .homepage__featured {
-  margin-bottom: 4.5em;
+  margin-bottom: 4em;
 }
 
 /**--------------------------------------------------------
@@ -1299,7 +1305,7 @@ h6 {
 
 .about__content-heading,
 .about__content-button {
-  margin: 2.5em 0 4.5em;
+  margin: 2.5em 0 4em;
 }
 
 .about__content-heading {
@@ -1322,7 +1328,7 @@ h6 {
   font-size: 16px;
   font-size: 16px;
   font-size: 1rem;
-  margin-bottom: 4.5em;
+  margin-bottom: 4em;
 }
 
 .listings__page-title {
