@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/wordup
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Theme for WordUp
-Version: 1.1.5
+Version: 1.1.6
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -386,7 +386,7 @@ p {
 blockquote {
   position: relative;
   max-width: 322px;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   padding: 24px 24px 32px;
   background-image: url(images/quote-line-bottom.png);
   background-color: transparent;
@@ -448,6 +448,7 @@ p a:hover {
   font-size: 12px;
   font-size: 0.75em;
   color: #c499c7;
+  margin: -2em 0;
 }
 
 /*---------------------------------------------------------

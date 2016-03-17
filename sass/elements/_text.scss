@@ -11,7 +11,7 @@ p {
 blockquote {
   position: relative;
   max-width: 322px;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   padding: 24px 24px 32px;
   background-image: url(images/quote-line-bottom.png);
   background-color: transparent;
@@ -64,4 +64,5 @@ p {
   text-align: center;
   @include font-size(12);
   color: $pastel-violet;
+  margin: -2em 0;
 }
