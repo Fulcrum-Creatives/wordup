@@ -8,7 +8,7 @@ if( have_rows( $parent_field ) ):
       $wu_featured_section_title = dfw_get_sub_field( $parent_field, 'wu_featured_section_title' );
       $wu_featured_entry         = dfw_get_sub_field( $parent_field, 'wu_featured_entry' );
       $wu_featured_subheading    = dfw_get_sub_field( $parent_field, 'wu_featured_subheading' );
-      $post_id                   = $wu_featured_entry->ID;
+      $post_id                   = ($wu_featured_entry) ? $wu_featured_entry->ID : '';
       $html                      = 
         '<article>
           <a class="button__violet button__featured" href="' . get_permalink( $post_id ) . '">
