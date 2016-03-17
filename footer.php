@@ -7,11 +7,9 @@
       get_template_part( 'template-parts/footer/social' );
     ?>
   </div>
-  <?php
-    get_template_part( 'template-parts/footer/copyright' );
-    get_template_part( 'template-parts/footer/bottom' );
-  ?>
+  <?php get_template_part( 'template-parts/footer/copyright' ); ?>
 </footer>
+<?php get_template_part( 'template-parts/footer/bottom' ); ?>
 <?php wp_footer(); ?>
 </body>
 </html>

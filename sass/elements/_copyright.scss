@@ -4,8 +4,9 @@
   border-top: 18px solid $white;
   padding: 2.5em 1em;
   color: $white;
+  margin-bottom: 56px;
   @include font-size(16, rem);
-  &:after {
+  /* &:after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -14,10 +15,11 @@
     margin: 0 auto;
     width: 0;
     height: 0;
+    z-index: 11;
     border-top: solid 10px #c499c7;
     border-left: solid 10px transparent;
     border-right: solid 10px transparent;
-  }
+  } */
 }
 .copyright__text,
 .footer__logo {
