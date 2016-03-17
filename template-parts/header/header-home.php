@@ -20,4 +20,5 @@ wp_reset_postdata();
       <?php echo $wu_header_sub_heading; ?>
     </div>
   </div>
+  <div class="header__edges"></div>
 </header>
