@@ -4,6 +4,7 @@
     get_template_part( 'template-parts/partials/thumbnail' );
     if( function_exists( 'dfw_entry_title' ) ) : dfw_entry_title(); endif;
     ?>
+    <span class="title__author"><?php get_template_part( 'template-parts/entry/author' ); ?></span>
     <section class="entry__content">
       <?php the_content(); ?>
     </section>
