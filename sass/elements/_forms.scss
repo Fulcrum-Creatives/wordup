@@ -3,7 +3,7 @@
 ---------------------------------------------------------*/
 @include placeholder() {
   font-family:'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: $black;
+  color: lighten( $black, 50% );
 }
 .gform_wrapper {
   padding: 0 !important;

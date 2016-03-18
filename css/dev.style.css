@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/wordup
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Theme for WordUp
-Version: 1.1.11
+Version: 1.1.12
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -755,22 +755,22 @@ h6 {
 ---------------------------------------------------------*/
 ::-webkit-input-placeholder {
   font-family: 'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: black;
+  color: gray;
 }
 
 ::-moz-placeholder {
   font-family: 'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: black;
+  color: gray;
 }
 
 :-ms-input-placeholder {
   font-family: 'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: black;
+  color: gray;
 }
 
 :-moz-placeholder {
   font-family: 'Proxima N W01 Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: black;
+  color: gray;
 }
 
 .gform_wrapper {
