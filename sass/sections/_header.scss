@@ -20,8 +20,10 @@
 .header__page {
   .header__wrapper {
     height: auto;
+    padding-bottom: 1em;
     @include media-query(640px) {
-      height: 65px;
+      height: 93px;
+      padding-bottom: 0;
     }
   }
 }

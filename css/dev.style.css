@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/wordup
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Theme for WordUp
-Version: 1.1.12
+Version: 1.1.13
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -1429,10 +1429,12 @@ h6 {
 
 .header__page .header__wrapper {
   height: auto;
+  padding-bottom: 1em;
 }
 @media only screen and (min-width: 640px) {
   .header__page .header__wrapper {
-    height: 65px;
+    height: 93px;
+    padding-bottom: 0;
   }
 }
 

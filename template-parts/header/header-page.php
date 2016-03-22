@@ -5,4 +5,5 @@
     </div>
     <?php get_template_part( 'template-parts/menu/primary' ); ?>
   </div>
+  <div class="header__edges"></div>
 </header>
