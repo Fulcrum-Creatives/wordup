@@ -28,8 +28,10 @@
 }
 .page-template-template-listings {
   .entry__thumbnail {
-    width: 136px;
-    height: 136px;
+    text-align: center;
     margin: 4.5em auto 0;
+    img {
+      width: auto;
+    }
   }
 }
